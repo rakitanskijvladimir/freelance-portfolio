@@ -4,7 +4,7 @@ import moon from "./moon.svg";
 import './style.css';
 
 const BtnDarkMode = () => {
-    const [darkMode, setDarkMode] = useState('светлая тема');
+    const [darkMode, setDarkMode] = useState('темная тема');
     const btnRef = useRef(null);
 
     useEffect(() => {
