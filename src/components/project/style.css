@@ -1,19 +1,50 @@
-
 .project {
-	max-width: 370px;
-	background-color: var(--project-card-bg);
-	box-shadow: var(--box-shadow);
-	border-radius: 10px;
+  background-color: var(--project-card-bg);
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  overflow: hidden; /* Для корректного отображения zoom */
+  position: relative;
+  z-index: 1;
+}
+
+.project:hover {
+  transform: scale(1.05); /* Увеличение на 5% */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Усиленная тень */
+  z-index: 2; /* Поднимаем над другими элементами */
 }
 
 .project__img {
-	border-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+  transition: transform 0.5s ease; /* Отдельная анимация для изображения */
+}
+
+.project:hover .project__img {
+  transform: scale(1.1); /* Изображение увеличивается сильнее */
 }
 
 .project__title {
-	padding: 15px 20px 25px;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 1.3;
-	color: var(--project-card-text);
+  padding: 15px 20px 25px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+  color: var(--project-card-text);
+}
+
+
+.project--wide {
+  grid-column: 1 / -1;
+}
+
+
+@media (max-width: 768px) {
+  .project--wide {
+    grid-column: 1;
+  }
+  
+  .project:hover {
+    transform: scale(1.03); /* Меньшее увеличение на мобильных */
+  }
 }

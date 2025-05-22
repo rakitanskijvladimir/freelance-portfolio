@@ -1,20 +1,13 @@
 import project01 from './../img/projects/01.png';
 import project01Big from './../img/projects/01.png';
 
-import project02 from './../img/projects/02.jpg';
-import project02Big from './../img/projects/02-big.jpg';
+import project02 from './../img/projects/02.png'
+import project02Big from './../img/projects/02-big.png'
 
-import project03 from './../img/projects/03.jpg';
-import project03Big from './../img/projects/03-big.jpg';
+import project03 from './../img/projects/03.png';
+import project03Big from './../img/projects/03-big.png';
 
-import project04 from './../img/projects/04.jpg';
-import project04Big from './../img/projects/04-big.jpg';
 
-import project05 from './../img/projects/05.jpg';
-import project05Big from './../img/projects/05-big.jpg';
-
-import project06 from './../img/projects/06.jpg';
-import project06Big from './../img/projects/06-big.jpg';
 
 
 const projects = [
@@ -26,41 +19,20 @@ const projects = [
     gitHubLink: 'https://github.com/rakitanskijvladimir/Mercedes-pictures.git'
   },
   {
-    title: "Video service",
-    skills: "React, PHP, MySql",
+    title: "project Landscapes",
+    skills: "JS, HTML, CSS, Git",
     img: project02,
     imgBig: project02Big,
     gitHubLink: 'https://github.com'
   },
   {
-    title: "Video portal",
-    skills: "Vue JS, Node.js, MongoDB",
+    title: "project bmw-history",
+    skills: "Vue JS, React, TS, HTML, CSS, Git",
     img: project03,
     imgBig: project03Big,
-    gitHubLink: 'https://github.com'
+    gitHubLink: 'https://github.com',
   },
-  {
-    title: "Dating app",
-    skills: "React Native",
-    img: project04,
-    imgBig: project04Big,
-    
-  },
-  {
-    title: "Landing",
-    skills: "HTML, SCSS, JS",
-    img: project05,
-    imgBig: project05Big,
-    
-  },
-  {
-    title: "Gaming community",
-    skills: "React, PHP, MySql",
-    img: project06,
-    imgBig: project06Big,
-    
-  },
- 
+  
 ];
 
 export {projects};

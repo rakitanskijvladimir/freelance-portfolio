@@ -7,30 +7,22 @@ const Contacts = () => {
         <ul className="contact-grid">
           <li className="contact-grid__item contact-grid__item--location">
             <h2 className="title-2">Location</h2>
-            <p>Moscow, Russia</p>
+            <p className="title-3">Moscow, Russia</p>
           </li>
 
           <li className="contact-grid__item contact-grid__item--whatsapp">
             <h2 className="title-2">WhatsApp</h2>
-            <p>
-              <a href="tel:+79051234567">+7 (903) 509-34-25</a>
-            </p>
+            <p className="title-3">+7 (903) 509-34-25</p>
           </li>
 
           <li className="contact-grid__item contact-grid__item--telegram">
             <h2 className="title-2">Telegram</h2>
-            <p>
-              <a href="tel:+79051234567">@RakitanskijVladimir</a>
-            </p>
+            <p className="title-3">@RakitanskijVladimir</p>
           </li>
 
           <li className="contact-grid__item contact-grid__item--email">
             <h2 className="title-2">Email</h2>
-            <p>
-              <a href="mailto:webdev@protonmail.com">
-                rakitanskijvladimir@yandex.ru
-              </a>
-            </p>
+            <p className="title-3">rakitanskijvladimir@yandex.ru</p>
           </li>
         </ul>
       </div>
