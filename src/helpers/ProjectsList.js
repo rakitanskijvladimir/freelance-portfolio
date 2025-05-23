@@ -26,7 +26,7 @@ const projects = [
     gitHubLink: 'https://github.com'
   },
   {
-    title: "project bmw-history",
+    title: "project Football clubs of europe",
     skills: "Vue JS, React, TS, HTML, CSS, Git",
     img: project03,
     imgBig: project03Big,
