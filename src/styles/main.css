@@ -22,7 +22,7 @@
   --text-color: var(--black);
   --accent: var(--white);
   --title-1: var(--black);
-  --title-3: var(--black);
+  --title-3: var(--orange);
   --border: var(--black);
   --project-card-bg: var(--black);
   --project-card-text: var(--white);
@@ -30,7 +30,7 @@
   --btn-outline: var(--white);
   --check-color: var(--white);
   --name: var(--orange);
-  --contactsBtn: var(--orange);;
+  --contactsBtn: var(--white);
 }
 
 .dark {
