@@ -17,7 +17,7 @@ const Contacts = () => {
 
           <li className="contact-grid__item contact-grid__item--telegram">
             <h2 className="title-2">Telegram</h2>
-            <p className="title-3">@RakitanskijVladimir</p>
+            <p className="title-3">@rakitanskijvladimir</p>
           </li>
 
           <li className="contact-grid__item contact-grid__item--email">

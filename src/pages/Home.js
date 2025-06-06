@@ -7,7 +7,7 @@ const Home = () => {
     { text: "Projects", className: "projects-btn" },
     { text: "My Skills", className: "skills-btn" },
     { text: "GitHub", className: "github-btn" },
-    { text: "Contact", className: "contact-btn" },
+    { text: "Contacts", className: "contact-btn" },
     { text: "Blog", className: "blog-btn" },
     { text: "CV", className: "cv-btn" },
     { text: "Lab", className: "lab-btn" },
@@ -33,7 +33,7 @@ const Home = () => {
         <motion.div
           className="container"
           initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}  // Исправлено с 50 на 0
+          animate={{ opacity: 1, y: 0 }}  
           transition={{ duration: 1 }}
         >
           <ul className="content-list">

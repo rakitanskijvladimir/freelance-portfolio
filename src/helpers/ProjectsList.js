@@ -16,21 +16,21 @@ const projects = [
     skills: "HTML, CSS, Git",
     img: project01,
     imgBig: project01Big,
-    gitHubLink: 'https://github.com/rakitanskijvladimir/Mercedes-pictures.git'
+    gitHubLink: 'https://github.com/rakitanskijvladimir/Mercedes-pictures'
   },
   {
     title: "project Landscapes",
     skills: "JS, HTML, CSS, Git",
     img: project02,
     imgBig: project02Big,
-    gitHubLink: 'https://github.com'
+    gitHubLink: 'https://github.com/rakitanskijvladimir/Landscapes'
   },
   {
-    title: "project Football clubs of europe",
+    title: "project ProCharity",
     skills: "Vue JS, React, TS, HTML, CSS, Git",
     img: project03,
     imgBig: project03Big,
-    gitHubLink: 'https://github.com',
+    gitHubLink: 'https://github.com/ProCharity-Practicum/production-task-app',
   },
   
 ];
