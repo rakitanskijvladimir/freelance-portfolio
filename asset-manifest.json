@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/freelance-portfolio/static/css/main.f6727076.css",
+    "main.js": "/freelance-portfolio/static/js/main.59664a23.js",
+    "static/js/453.201fd7ce.chunk.js": "/freelance-portfolio/static/js/453.201fd7ce.chunk.js",
+    "static/media/02-big.png": "/freelance-portfolio/static/media/02-big.9588afdf9325e77420b2.png",
+    "static/media/02.png": "/freelance-portfolio/static/media/02.9588afdf9325e77420b2.png",
+    "static/media/01.png": "/freelance-portfolio/static/media/01.cfdca652b50b5d88d9ef.png",
+    "static/media/03-big.png": "/freelance-portfolio/static/media/03-big.b1b31dd1ac5b3e1182b0.png",
+    "static/media/03.png": "/freelance-portfolio/static/media/03.b1b31dd1ac5b3e1182b0.png",
+    "static/media/sun.svg": "/freelance-portfolio/static/media/sun.f8606845ee97bee21c3bc95b2dec3866.svg",
+    "static/media/moon.svg": "/freelance-portfolio/static/media/moon.312bed9230c94183d589bcc499993093.svg",
+    "static/media/gitHub.svg": "/freelance-portfolio/static/media/gitHub.a5541850a2a6843f34467a91657cc39d.svg",
+    "static/media/gitHub-black.svg": "/freelance-portfolio/static/media/gitHub-black.879a08487a26f06ac21248a96c866696.svg",
+    "static/media/instagram.svg": "/freelance-portfolio/static/media/instagram.6b0ce32a930db2eac1c21600458a8cd0.svg",
+    "static/media/vk.svg": "/freelance-portfolio/static/media/vk.92c39b2c917df4fd4643503dd57a49bf.svg",
+    "static/media/twitter.svg": "/freelance-portfolio/static/media/twitter.9ca7b7d7634476270a563192e3f69250.svg",
+    "static/media/linkedIn.svg": "/freelance-portfolio/static/media/linkedIn.55523f62797ddb51e960322dd47e5636.svg",
+    "index.html": "/freelance-portfolio/index.html",
+    "main.f6727076.css.map": "/freelance-portfolio/static/css/main.f6727076.css.map",
+    "main.59664a23.js.map": "/freelance-portfolio/static/js/main.59664a23.js.map",
+    "453.201fd7ce.chunk.js.map": "/freelance-portfolio/static/js/453.201fd7ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6727076.css",
+    "static/js/main.59664a23.js"
+  ]
+}
